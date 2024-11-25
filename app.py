@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='path_to_your_templates_folder')
 
 # Sample data for teachers
 teachers = [
